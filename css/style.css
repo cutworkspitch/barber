@@ -31,10 +31,17 @@ body {
     max-width: 1400px;
     margin: 0 auto;
 }
-
+/* ヘッダーロゴエリアの修正 */
 .header-logo-area {
-    text-align: center;
+    /* text-align: center; を削除（あるいは left に変更） */
+    text-align: left; 
     margin-bottom: 25px;
+    
+    /* ページ全体の中央寄せ基準に合わせるための調整 */
+    max-width: 900px; /* 他のセクションと幅を合わせる */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px; /* 必要に応じて余白を調整 */
 }
 
 h1 {
@@ -42,12 +49,14 @@ h1 {
     margin: 0;
     letter-spacing: 5px;
     line-height: 1.1;
+    /* 左寄せを維持 */
 }
 
 .sub-title {
     font-size: 0.8rem;
     opacity: 0.6;
     margin: 8px 0 0 0;
+    /* これで勝手に右にずれることはなくなります */
 }
 
 .header-nav ul {
