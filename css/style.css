@@ -28,15 +28,18 @@ body {
    ========================================================================= */
 
 .site-header {
-    /* 900px制限と中央寄せを解除します */
-    max-width: 100%; 
-    margin: 0;
-    padding: 40px 20px; /* ここで調整します */
+    max-width: 100%;
+    padding: 40px 20px;
     display: flex;
-    justify-content: flex-start; /* 左側に寄せます */
-    gap: 40px; /* ロゴとメニューの間の距離を指定します */
+    justify-content: space-between; /* これで左右に分かれます */
     align-items: flex-end;
 }
+
+.header-logo-group {
+    text-align: left; /* 左寄せ */
+}
+
+/* h1, .sub-title, .header-nav ul の指定は今のままでOKです */
 
 /* もしメニューが右端に寄ってほしい場合は以下を追加 */
 /* justify-content: space-between; に戻すと右に離れます */
