@@ -28,10 +28,11 @@ body {
    ========================================================================= */
 
 .site-header {
-    max-width: 100%;
-    padding: 40px 20px;
+    max-width: 900px;      /* 左右に広がりすぎない最大幅 */
+    margin: 40px auto;     /* 全体を中央に配置 */
+    padding: 0 20px;       /* 画面端との隙間 */
     display: flex;
-    justify-content: space-between; /* これで左右に分かれます */
+    justify-content: space-between; /* ロゴは左、メニューは右に寄せる */
     align-items: flex-end;
 }
 
