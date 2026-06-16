@@ -23,19 +23,23 @@ body {
 /* ==========================================================================
    2. ヘッダーエリア
    ========================================================================= */
+/* ==========================================================================
+   ヘッダーの修正（左揃えに戻す）
+   ========================================================================= */
+
 .site-header {
+    /* 900px制限と中央寄せを解除します */
+    max-width: 100%; 
+    margin: 0;
+    padding: 40px 20px; /* ここで調整します */
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px 40px 30px 40px;
-    max-width: 1400px;
-    margin: 0 auto;
+    justify-content: flex-start; /* 左側に寄せます */
+    gap: 40px; /* ロゴとメニューの間の距離を指定します */
+    align-items: flex-end;
 }
 
-.header-logo-area {
-    text-align: center;
-    margin-bottom: 25px;
-}
+/* もしメニューが右端に寄ってほしい場合は以下を追加 */
+/* justify-content: space-between; に戻すと右に離れます */
 
 h1 {
     font-size: 2.8rem;
