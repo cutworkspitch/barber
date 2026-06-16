@@ -31,22 +31,10 @@ body {
     max-width: 1400px;
     margin: 0 auto;
 }
-/* ==========================================================================
-   ヘッダーの修正（ここをそのままコピー＆ペーストしてください）
-   ========================================================================= */
-
-.site-header {
-    max-width: 900px;      /* サイトの横幅を他とそろえます */
-    margin: 40px auto;     /* 上下に余白を作りつつ、全体を中央に置きます */
-    padding: 0 20px;       /* 左右に少し隙間を作ります */
-    display: flex;         /* 横に並べる準備 */
-    justify-content: space-between; /* ロゴを左、メニューを右に配置 */
-    align-items: flex-end; /* ロゴとメニューの底辺をそろえます */
-}
 
 .header-logo-area {
-    text-align: left;      /* 文字を左寄せにします */
-    margin: 0;             /* 余計な隙間をなくします */
+    text-align: center;
+    margin-bottom: 25px;
 }
 
 h1 {
@@ -64,20 +52,11 @@ h1 {
 
 .header-nav ul {
     list-style: none;
-    padding: 0 0 8px 0;    /* 下の線とのバランス調整 */
+    padding: 0 15px 8px 15px;
     margin: 0;
     display: flex;
     gap: 35px;
-    border-bottom: 2px solid #2b2b2b; /* メニューの下の線 */
-}
-
-.header-nav a {
-    text-decoration: none;
-    color: #2b2b2b;
-    font-size: 0.95rem;
-    font-weight: bold;
-    letter-spacing: 2px;
-    opacity: 0.8;
+    border-bottom: 2px solid #2b2b2b;
 }
 
 .header-nav a {
