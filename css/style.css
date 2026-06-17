@@ -55,16 +55,19 @@ h1 {
     padding: 0 15px 8px 15px;
     margin: 0;
     display: flex;
-    gap: 35px;
+    justify-content: center; /* 念のため追加：常に中央寄せにする */
+    flex-wrap: nowrap;       /* 追加：改行を阻止する */
+    gap: 20px;               /* 調整：35pxだと広いので20pxに少し詰めました */
+    white-space: nowrap;     /* 追加：文字の改行を阻止する */
     border-bottom: 2px solid #2b2b2b;
 }
 
 .header-nav a {
     text-decoration: none;
     color: #2b2b2b;
-    font-size: 0.95rem;
+    font-size: 0.85rem;      /* 調整：0.95から0.85へ少しだけ下げて余裕を持たせる */
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 1px;     /* 調整：2pxから1pxに詰めて収まりを良くする */
     opacity: 0.8;
 }
 
