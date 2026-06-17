@@ -226,9 +226,9 @@ h1 {
     width: 100%;
 }
 
-.map-container h3 {
+.map-container h2 {
     font-size: 1.4rem;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     margin-bottom: 30px;
     text-transform: uppercase;
     opacity: 0.9;
