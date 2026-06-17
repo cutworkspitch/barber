@@ -77,7 +77,8 @@ h1 {
    ========================================================================= */
 .hero-image {
     width: 100%;
-    aspect-ratio: 4/3;
+    height: 65vh;
+    height: 65svh;
     overflow: hidden;
 }
 
@@ -370,6 +371,23 @@ h1 {
 }
     .header-nav a {
     letter-spacing: 1px;
+}
+   .footer-logo {
+    position: static !important;
+    transform: translateY(-8px) !important;
+    margin: 0 auto 18px auto !important;
+    display: block !important;
+    text-align: center !important;
+}
+    .copyright {
+        text-align: center !important;
+}
+    .header-nav a {
+    letter-spacing: 1px;
+}
+    .hero-image {
+        height: auto;
+        aspect-ratio: 4 / 3;
 }
 }
 
