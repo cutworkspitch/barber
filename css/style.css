@@ -57,7 +57,7 @@ h1 {
     display: flex;
     gap: 35px;
     border-bottom: 2px solid #2b2b2b;
-    transform: translate(-25px, 38px);
+    transform: translate(-15px, 38px);
 }
 
 .header-nav a {
