@@ -77,7 +77,7 @@ h1 {
    ========================================================================= */
 .hero-image {
     width: 100%;
-    height: clamp(420px, 65vw, 680px);
+    height: clamp(420px, 60vw, 620px);
     overflow: hidden;
 }
 
