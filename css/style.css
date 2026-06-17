@@ -337,7 +337,7 @@ h1 {
     }
     h1 {
     font-size: 1.8rem; /* 少し小さくして */
-    letter-spacing: 1px; /* 文字間隔を詰めると、ぐっと一行に収まりやすくなります */
+    letter-spacing: 0.5px; /* 文字間隔を詰めると、ぐっと一行に収まりやすくなります */
     white-space: nowrap; /* これで強制的に改行を防ぎます */
 }
     .header-nav ul {
