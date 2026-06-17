@@ -55,19 +55,16 @@ h1 {
     padding: 0 15px 8px 15px;
     margin: 0;
     display: flex;
-    justify-content: center; /* 念のため追加：常に中央寄せにする */
-    flex-wrap: nowrap;       /* 追加：改行を阻止する */
-    gap: 20px;               /* 調整：35pxだと広いので20pxに少し詰めました */
-    white-space: nowrap;     /* 追加：文字の改行を阻止する */
+    gap: 35px;
     border-bottom: 2px solid #2b2b2b;
 }
 
 .header-nav a {
     text-decoration: none;
     color: #2b2b2b;
-    font-size: 0.85rem;      /* 調整：0.95から0.85へ少しだけ下げて余裕を持たせる */
+    font-size: 0.95rem;
     font-weight: bold;
-    letter-spacing: 1px;     /* 調整：2pxから1pxに詰めて収まりを良くする */
+    letter-spacing: 2px;
     opacity: 0.8;
 }
 
@@ -229,7 +226,7 @@ h1 {
     width: 100%;
 }
 
-.map-container h2 {
+.map-container h3 {
     font-size: 1.4rem;
     letter-spacing: 3px;
     margin-bottom: 30px;
@@ -336,10 +333,9 @@ h1 {
         margin-bottom: 25px;
     }
     h1 {
-    font-size: 1.8rem; /* 少し小さくして */
-    letter-spacing: 0.5px; /* 文字間隔を詰めると、ぐっと一行に収まりやすくなります */
-    white-space: nowrap; /* これで強制的に改行を防ぎます */
-}
+        font-size: 2.2rem;
+        letter-spacing: 4px;
+    }
     .header-nav ul {
         flex-wrap: wrap;
         justify-content: center;
@@ -393,8 +389,3 @@ h1 {
     text-decoration: none;
     font-size: 1.4rem;
 }
-/* --- ここから追記：タップ時の誤作動（拡大・膨張）を防ぐ設定 --- */
-img, a {
-    touch-action: manipulation;
-}
-/* --- ここまで追記 --- */
